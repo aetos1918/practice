@@ -23,3 +23,4 @@ def big(a,b):
 
 print(add(45, 29))
 print(big(34, 25))
+print(difference(34, 76))
