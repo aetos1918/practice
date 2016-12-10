@@ -12,3 +12,11 @@ def divide(a,b):
 
 def modu(a,b)
 	return a%b
+
+def big(a,b):
+	if a>b:
+		return a
+	elif a<b:
+		return b
+	else:
+		return "equal"
