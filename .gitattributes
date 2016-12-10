@@ -1,0 +1,7 @@
+* text=auto
+*.html text
+*.css text
+*.jpg binary
+*.png binary
+*.sh text eol=if
+*.bat text eol=crllf
