@@ -20,3 +20,5 @@ def big(a,b):
 		return b
 	else:
 		return "equal"
+
+print(big(34, 25))
