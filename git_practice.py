@@ -21,4 +21,5 @@ def big(a,b):
 	else:
 		return "equal"
 
+print(add(45, 29))
 print(big(34, 25))
