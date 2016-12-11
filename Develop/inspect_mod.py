@@ -26,5 +26,6 @@ def hack(a,b,c):
 def hack(a,b):
 	return a*b
 # It will conider the last function
-print(hack(2,3))
-print(hack(4,5))
+if __name__ == '__main__':
+	print(hack(2,3))
+	print(hack(4,5))

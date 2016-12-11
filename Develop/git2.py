@@ -29,16 +29,16 @@ std1 = Hacker('Sree', 25)
 
 Hacker.set_mark(56)
 
-print(std1.get_marks())
-
-print(std1.get_name())
+if __name__ == '__main__':
+	print(std1.get_marks())
+	print(std1.get_name())
 
 import datetime
 
-my_date = datetime.date(2016, 9, 12)
-
-print(Hacker.is_workday(my_date))
-
-tdy = datetime.datetime.now()
-print('{:%Y}'.format(tdy))
-
+def dt_fun():
+	my_date = datetime.date(2016, 9, 12)
+	print(Hacker.is_workday(my_date))
+	tdy = datetime.datetime.now()
+	
+if __name__ == '__main__':
+	dt_fun()

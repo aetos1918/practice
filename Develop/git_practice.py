@@ -21,10 +21,11 @@ def big(a,b):
 	else:
 		return "equal"
 
-print(add(45, 29))
-print(big(34, 25))
-print(difference(34, 76))
-print(multiply(5, 12))
+if __name__ == '__main__':
+	print(add(45, 29))
+	print(big(34, 25))
+	print(difference(34, 76))
+	print(multiply(5, 12))
 
 class Person:
 	def __init__(self, name, id):
@@ -41,5 +42,6 @@ sree = Person('sreekanth', 1918)
 
 sree.__dict__['age'] = 27
 
-print(sree.get_name())
-print(sree.get_age())
+if __name__ == '__main__':
+	print(sree.get_name())
+	print(sree.get_age())
