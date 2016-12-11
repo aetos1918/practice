@@ -38,3 +38,7 @@ import datetime
 my_date = datetime.date(2016, 9, 12)
 
 print(Hacker.is_workday(my_date))
+
+tdy = datetime.datetime.now()
+print('{:%Y}'.format(tdy))
+
