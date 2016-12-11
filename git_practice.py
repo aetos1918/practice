@@ -2,11 +2,26 @@ def add(a,b):
 	return a+b
 
 def difference(a,b):
-	pass
+	return a-b
 
 def multiply(a,b):
-	pass
+	return a*b
 
 def divide(a,b):
-	pass
-	
+	return a/b
+
+def modu(a,b)
+	return a%b
+
+def big(a,b):
+	if a>b:
+		return a
+	elif a<b:
+		return b
+	else:
+		return "equal"
+
+print(add(45, 29))
+print(big(34, 25))
+print(difference(34, 76))
+print(multiply(5, 12))
