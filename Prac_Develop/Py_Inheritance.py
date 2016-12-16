@@ -111,12 +111,26 @@ def uni_lst(lst):
     return op
 ab = [1,2,3,[4,5,6,(7,8,9)],(10,11,12),[13,14]]
 
+def convert(lst):
+	if all(not isinstance(e, (list, tuple)) for e in lst):
+		return lst[:]
+	else:
+		result =[]
+		for e in lst:
+			if isinstance(e, (list, tuple)):
+				converted = convert(e)
+				result.extend(converted)
+			else:
+				result.append(e)
+		return result
+
 if __name__ == '__main__':
-	fibo(5)
-	fib_gen(5)
-	facto(5)
-	check_poly(str)
-	tri_pat(5)
-	pyramid(5)
-	pyramid_odd(5)
-	print(uni_lst(ab))
+	# fibo(5)
+	# fib_gen(5)
+	# facto(5)
+	# check_poly(str)
+	# tri_pat(5)
+	# pyramid(5)
+	# pyramid_odd(5)
+	# print(uni_lst(ab))
+	print(convert(ab))

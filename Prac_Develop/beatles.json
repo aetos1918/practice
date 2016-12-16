@@ -1,0 +1,67 @@
+[
+	{
+		"model": "TaGs.Student",
+		"pk": 3,
+		"fields":{
+			"First_name": "Ram",
+			"Last_name": "Charan",
+			"slug": "ram",
+			"Gender": "M",
+			"ScName": 5,
+			"ClName": "X",
+			"DOB": "1992-05-26"
+		}
+	},
+	{
+		"model": "TaGs.Student",
+		"pk": 4,
+		"fields":{
+			"First_name": "Sarath",
+			"Last_name": "Chandra",
+			"slug": "sarath",
+			"Gender": "M",
+			"ScName": 4,
+			"ClName": "X",
+			"DOB": "1987-05-05"
+		}
+	},
+	{
+		"model": "TaGs.Student",
+		"pk": 5,
+		"fields":{
+			"First_name": "Nisha",
+			"Last_name": "Yadav",
+			"slug": "nisha",
+			"Gender": "F",
+			"ScName": 7,
+			"ClName": "XI",
+			"DOB": "1989-10-24"
+		}
+	},
+	{
+		"model": "TaGs.Student",
+		"pk": 6,
+		"fields":{
+			"First_name": "Anusha",
+			"Last_name": "Reddy",
+			"slug": "anusha",
+			"Gender": "F",
+			"ScName": 7,
+			"ClName": "XII",
+			"DOB": "1990-04-01"
+		}
+	},
+	{
+		"model": "TaGs.Student",
+		"pk": 7,
+		"fields":{
+			"First_name": "Raghava",
+			"Last_name": "Pindi",
+			"slug": "raghava",
+			"Gender": "M",
+			"ScName": 8,
+			"ClName": "XIII",
+			"DOB": "1991-10-18"
+		}
+	}
+]
